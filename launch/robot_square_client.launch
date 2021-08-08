@@ -1,0 +1,5 @@
+<launch>
+<!-- Start Service Server for /move_bb8_in_square_custom service -->
+    <node pkg ="robot_square_pkg" type = "robot_square_client.py" name="service_move_bb8_in_square_custom_client" output="screen" >
+    </node>
+</launch>
